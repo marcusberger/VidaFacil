@@ -1,48 +1,42 @@
 #sidebarFixo{
- position: fixed;
- width: 20%;
- overflow:hidden;
- padding:6px;
- height: 100%;
- display: inline;
- float: left;
- background-color: #ededed;
-}
-
-#sidebarElements{
-  position:absolute;
-  
-
-}
-
-#conteudo{
-  margin:0 auto;
-  width:80%;
-  height:100%;
+  position: fixed;
+  width: 25%;
+  overflow:hidden;
+  padding:6px;
+  height: 100%;
   display: inline;
-  float: right;
-}
-
-#post{
-	height: 10%;
-	width: 80%;
-	
-}
-
-#singlebuttonOrage{
-  background-color: #ff6000;
-  width: 80%;
+  float: left;
+  background-color: #ededed;
 }
 
 
-#box{
+.div-logo{
 
-  border-radius: 8px;
-  margin-bottom: 3%;
-  height: 30%;
-  width:80%;
-  font-size: 16px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
 
 }
 
-</style>
+#logo-blog{
+
+  padding-left: 10%;
+  padding-right: 18%;
+  
+  
+}
+
+#descricao{
+  margin-top: 25px;
+   padding-left: 10%;
+  padding-right: 18%;
+
+}
+
+tr, #logo-facebook{
+  padding-left: 10%;
+  padding-right: 18%;
+
+  
+}
+
