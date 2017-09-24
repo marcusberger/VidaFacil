@@ -1,52 +1,77 @@
     <!DOCTYPE html>
     <html lang="pt-br">
-      <head>
-        <title>Vida boa</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/sidebar.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">  
-        </head>
-      <body>
-    
-      
-  
-       <div id="sidebarFixo">
+    <head>
+      <title>Vida boa</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">  
+    </head>
+    <body>
 
-       <img id="logo-blog" src="img/logo-blog.png" class="img-responsive">
-   
-       </div>
 
- 
-     
- 
-      <div id="conteudo">
 
-        <section class="container" id="post">
+     <div id="sidebarFixo">
 
-           <h3>Posts</h3>
-           <figure  class="jumbotron post-responsive" >
-               <img id="img" class="img-responsive" src="img/foto-01.jpg">
-              <figcaption class='caption' id="caption">
-                  <h4 data-toggle="collapse" data-target="#post1">Lorem Ipsum</h4>
-                  <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
-              
-                  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> 
+     <div id="sidebarElements">
 
-              </figcaption>
-           </figure>
-           
+       <form class="form-horizontal">
+       
+        <img id="logo-blog" src="img/logo-blog.png" class="img-responsive">
 
-         
-           
+        <input  id="box" class="inputName" type="text" name="name" placeholder="Nome"><br>
 
-        </section>     
-       </div>     
-   
-        <script src="jquery/jquery.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <input id="box" type="email" name="email" placeholder="E-mail">
 
-      
-      </body>
-    </html>
+        <button id="singlebuttonOrage" name="singlebutton" class="btn btn-primary">Quero meu e-book grátis</button>
+      </form> 
+
+  </div>
+
+</div>
+
+
+
+
+<div id="conteudo">
+
+  <section class="container" id="post">
+
+   <h3>Posts</h3>
+   <figure  class="jumbotron post-responsive" >
+     <img id="img" class="img-responsive" src="img/foto-01.jpg">
+     <figcaption class='caption' id="caption">
+      <h4 data-toggle="collapse" data-target="#post1">Lorem Ipsum</h4>
+      <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> 
+
+    </figcaption>
+  </figure>
+
+
+  <figure  class="jumbotron post-responsive" >
+   <img id="img" class="img-responsive" src="img/foto-01.jpg">
+   <figcaption class='caption' id="caption">
+    <h4 data-toggle="collapse" data-target="#post1">Lorem Ipsum</h4>
+    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> 
+
+  </figcaption>
+</figure>
+
+
+
+
+
+</section>     
+</div>     
+
+<script src="jquery/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
