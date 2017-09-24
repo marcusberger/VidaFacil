@@ -1,0 +1,21 @@
+#post-container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  max-width: 650px;
+}
+
+#caption {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#post-body {
+  font-size: 14px;
+}
+
+.separador {
+  width: inherit;
+  height: 5px;
+  background-color: #ffcc00;
+}
