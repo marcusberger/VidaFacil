@@ -32,7 +32,7 @@
 #post{
   height: 10%;
   width: 80%;
-  
+
 }
 
 #singlebuttonOrage{
@@ -66,9 +66,18 @@
   font-size: 100%;
   margin-left: 40%;
   max-height: 50%;
-  
+
 }
 
 #divBtnREAD{
   width: 100%;
+}
+
+.form-footer {
+  margin-bottom: 100px;
+}
+
+.footer-text {
+  margin-left: 15px;
+  margin-bottom: 15px;
 }

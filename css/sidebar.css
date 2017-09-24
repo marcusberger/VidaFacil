@@ -9,7 +9,6 @@
   background-color: #ededed;
 }
 
-
 .div-logo{
 
   padding-left: 10%;
@@ -21,22 +20,25 @@
 #logo-blog{
 
   padding-left: 10%;
-  padding-right: 18%;
-  
-  
+  padding-right: 10%;
+
+
 }
 
 #descricao{
   margin-top: 25px;
-   padding-left: 10%;
-  padding-right: 18%;
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
 
-tr, #logo-facebook{
-  padding-left: 10%;
-  padding-right: 18%;
-
-  
+.facebook-link {
+  margin-top: 20px;
+  display: block;
+  margin: auto;
 }
 
+.button-ebook {
+  display: block;
+  margin: auto;
+}
