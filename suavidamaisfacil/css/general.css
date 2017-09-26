@@ -1,0 +1,142 @@
+#post-container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-top: 35px;
+  max-width: 650px;
+}
+
+#caption {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#post-body {
+  font-size: 14px;
+}
+
+.separador {
+  width: inherit;
+  height: 5px;
+  background-color: #ffcc00;
+}
+
+#conteudo{
+  margin:0 auto;
+  width:70%;
+  height:100%;
+  display: inline;
+  float: right;
+}
+
+#post{
+  height: 10%;
+  width: 80%;
+
+}
+
+#singlebuttonOrage{
+  background-color: #ff6000;
+  width: 80%;
+  margin-top: 5%;
+  font-size: 15px;
+  border: 0;
+  size: 40px;
+}
+
+
+#box{
+
+  border-radius: 8px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 20px;
+  height: 30%;
+  width:80%;
+  font-size: 16px;
+
+
+}
+
+#btnREAD{
+  background-color: #cccccc;
+  border-radius: 10px;
+  width: 20%;
+  border: 0px;
+  font-size: 100%;
+  margin-left: 40%;
+  max-height: 50%;
+
+}
+
+#divBtnREAD{
+  width: 100%;
+}
+
+.footer {
+  margin-bottom: 200px;
+}
+
+.footer-text {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.borda-vermelha {
+  border-color: red;
+}
+
+.button-footer {
+  margin-left: 15px;
+}
+
+.input-footer {
+  margin-bottom: 15px;
+}
+
+.alert-footer {
+  margin-right: 35px;
+}
+
+.button-voltar {
+  margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+body {margin-left:0;background-size:100% 28em!important;}
+#sidebarFixo {
+  padding:0;
+  -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+  font-size:1.2em;
+  height:100%;
+  overflow:auto;
+  width:100%; 
+  position:static;
+  top:0;
+  left:0;
+  }
+#lateral:before {
+  z-index:1000;
+  width:0;
+  text-align:center;
+  content: "";
+  font-size:0;
+  color:white;
+  position:static;
+  top:0;
+  left:0;
+  display:inline-block; 
+  }
+#lateral:hover, #lateral:focus {
+  overflow:scroll;
+  -moz-transform: none;
+    -webkit-transform: none;
+      -o-transform:none;
+        transform:none;
+  }
+#menu li a {border-bottom:1px solid #ccc;}
+#menu li:first-child a {border-top:1px solid #ccc;} 
+}
