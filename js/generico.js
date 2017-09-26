@@ -1,6 +1,6 @@
 //Valida se o campo está vazio
 function validarCampoVazio(id, alert) {
-  if ($(id).val().length == 0) {
+  if ($(id).val().length < 3) {
     $(id).addClass("borda-vermelha");
     $(alert).show();
     return false;
@@ -19,3 +19,5 @@ function validaEmail(id, alert) {
     }
     return isValid;
 }
+
+
