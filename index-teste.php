@@ -14,6 +14,7 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/validacao.js"></script>
   <script src="js/generico.js"></script>
+  <script src="js/index.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Life-hacking dicas blog">
   <meta content="Sua vida mais fácil">
@@ -39,15 +40,13 @@
 
   <!--Analytics-->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-106963166-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
+  ga('create', 'UA-106963166-1', 'auto');
+  ga('send', 'pageview');</script>
 
 </head>
 <body>
@@ -96,27 +95,6 @@
     <img id="logo-blog" src="img/Logo_SuaVidaMaisFacil_Black_Mobile.png" class="img-responsive">
   </div>
 
-  <!-- post 9 -->
-  <div id="conteudo">
-    <section class="container" id="post">
-      <a class="conteudo-link" href="comida-natural-vs-industrializada.html">
-        <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/comida natural.png">
-          <div class="separador">
-          </div>
-          <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">Comida Natural vs. Industrializada, qual é melhor para o seu cão?</h3>
-            <p id="post-body" >
-              Parece que hoje está na moda a alimentação natural para cães, muitos donos se
-              preocupam com a qualidade alimentar de seus cães, o que gera muita duvida no
-              quesito qual tipo de dieta é mais recomendada...
-            </p>
-          </figcaption>
-        </figure>
-      </a>
-    </section>
-  </div>
-
   <!-- post 1 -->
   <div id="conteudo">
     <section class="container" id="post">
@@ -128,7 +106,7 @@
           <figcaption class="caption" id="caption">
             <h3 data-toggle="collapse" data-target="#post1">3 Apps que vão mudar a sua vida!</h3>
             <p id="post-body" >Chega de tentar fingir que o celular não é uma extensão do nosso corpo.
-              Ao invés de lutar contra isso é hora de aproveitar o que eles...
+            Ao invés de lutar contra isso é hora de aproveitar o que eles...
             </p>
           </figcaption>
         </figure>
@@ -179,47 +157,47 @@
   </div>
 
   <!-- post 4 -->
-  <div id="conteudo">
-    <section class="container" id="post">
-      <a class="conteudo-link" href="a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.html">
-        <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.jpg">
-          <div class="separador">
-          </div>
-          <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">A check-list perfeita para fazer uma road trip sem stress</h3>
-            <p id="post-body" >
-              E aquele dia tão desejado ta chegando? Você tem mesmo certeza que ta tudo certo?
-              Ainda não sabe do que eu estou falando, não é?
-              Eu to falando daquela ROAD TRIP que você tem sonhado há muito tempo. E agora, meu amigo, ela vai sair do papel.
-              Aqui vão algumas dicas para você se planejar melhor.
-            </p>
-          </figcaption>
-        </figure>
-      </a>
-    </section>
-  </div>
+    <div id="conteudo">
+      <section class="container" id="post">
+        <a class="conteudo-link" href="a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.html">
+          <figure id="post-container" class="jumbotron post-responsive" >
+            <img id="img" class="img-responsive" src="img/a-check-list-perfeita-para-fazer-uma-road-trip-sem-stress.jpg">
+            <div class="separador">
+            </div>
+            <figcaption class='caption' id="caption">
+              <h3 data-toggle="collapse" data-target="#post1">A check-list perfeita para fazer uma road trip sem stress</h3>
+              <p id="post-body" >
+                E aquele dia tão desejado ta chegando? Você tem mesmo certeza que ta tudo certo?
+                Ainda não sabe do que eu estou falando, não é?
+                Eu to falando daquela ROAD TRIP que você tem sonhado há muito tempo. E agora, meu amigo, ela vai sair do papel.
+                Aqui vão algumas dicas para você se planejar melhor.
+              </p>
+            </figcaption>
+          </figure>
+        </a>
+      </section>
+    </div>
 
   <!-- post 5 -->
-  <div id="conteudo">
-    <section class="container" id="post">
-      <a class="conteudo-link" href="como-economizar-tempo-e-dinheiro-com-seu-automovel.html">
-        <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.jpeg">
-          <div class="separador">
-          </div>
-          <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">Como economizar tempo e dinheiro com o seu automovel</h3>
-            <p id="post-body" >
-              Os tempos estão mudando e muita coisa que antes era fato, hoje não passa de uma simples lembrança,
-              isso é um fato! Mas uma coisa que sem dúvida ainda é verdade, é que o brasileiro não deixou de ser apaixonado por carro!
-              Segundo o IBGE...
-            </p>
-          </figcaption>
-        </figure>
-      </a>
-    </section>
-  </div>
+    <div id="conteudo">
+      <section class="container" id="post">
+        <a class="conteudo-link" href="como-economizar-tempo-e-dinheiro-com-seu-automovel.html">
+          <figure id="post-container" class="jumbotron post-responsive" >
+            <img id="img" class="img-responsive" src="img/os-5-melhores-aplicativos-para-gestao-de-gastos-do-seu-carro.jpeg">
+            <div class="separador">
+            </div>
+            <figcaption class='caption' id="caption">
+              <h3 data-toggle="collapse" data-target="#post1">Como economizar tempo e dinheiro com o seu automovel</h3>
+              <p id="post-body" >
+                Os tempos estão mudando e muita coisa que antes era fato, hoje não passa de uma simples lembrança,
+                isso é um fato! Mas uma coisa que sem dúvida ainda é verdade, é que o brasileiro não deixou de ser apaixonado por carro!
+                Segundo o IBGE...
+              </p>
+            </figcaption>
+          </figure>
+        </a>
+      </section>
+    </div>
 
   <!-- post 6 -->
   <div id="conteudo">
@@ -261,32 +239,14 @@
     </section>
   </div>
 
-  <!-- post 8 -->
   <div id="conteudo">
     <section class="container" id="post">
-      <a class="conteudo-link" href="crm-gestao-de-clientes.html">
-        <figure id="post-container" class="jumbotron post-responsive" >
-          <img id="img" class="img-responsive" src="img/CRM-Image.jpg">
-          <div class="separador">
-          </div>
-          <figcaption class='caption' id="caption">
-            <h3 data-toggle="collapse" data-target="#post1">CRM: Gestão de Clientes</h3>
-            <p id="post-body" >
-              Foi-se o tempo onde uma carteira de clientes era algo simples de manter. Onde o
-              relacionamento entre vendedor e cliente era algo duradouro.
-            </p>
-          </figcaption>
-        </figure>
-      </a>
-    </section>
-  </div>
-
-  <div class="form-row footer">
-    <div class="footer-text">
-      <h3>Gostou das nossas dicas?</h1>
+      <div class="form-row footer">
+        <div class="footer-text">
+        <h3>Gostou das nossas dicas?</h1>
         <h5>Baixe agora um e-book com muito mais novidades!</h1>
         </div>
-        <form id="form-footer" method="POST" action="como-economizar-tempo-e-dinheiro-com-seu-automovel.php">
+        <form id="form-footer" method="POST" action="insert.php">
           <input type="hidden" name="id_leads" value="" />
           <div class="form-row align-items-center">
             <div class="alert alert-danger alert-footer" role="alert"  id="alert-obrigatorio-footer" hidden="true">
@@ -317,14 +277,47 @@
             </div>
           </div>
         </form>
-      </div>
+      </section>
+    </div>
 
-      <div id="conteudo">
-        <section class="container" id="post">
-          <div class="col-auto button-footer facebook-div-comentario">
-            <div class="fb-comments facebook-comentarios" data-href="https://www.facebook.com/suavidamaisfacil/index.php" data-mobile="true" data-width="100%" data-colorscheme="dark" data-numposts="10"></div>
+    <!-- modal -->
+    <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <form id="form-cadastro-modal" action="insert.php" >
+        <div class="vertical-alignment-helper">
+          <div class="modal-dialog vertical-align-center">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  <span aria-hidden="true">&times;</span>
+                  <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Inscreva-se e receba conteúdos exlcusivos</h4>
+              </div>
+              <div class="modal-body">
+                <div class="form-group input-group input-grande">
+                  <label>Preencha os campos abaixo e faça o download do nosso e-book grátis com dicas surpreendentes</label>
+                  <input type="text" class="form-control" id="nome-modal" name="nome-modal" maxlength="254" placeholder="Digite o nome completo">
+                </div>
+                <div class="form-group input-group input-grande">
+                  <input type="text" class="form-control" id="email-modal" name="email-modal" maxlength="254" placeholder="Digite o e-mail">
+                </div>
+                <div class="alert alert-danger" role="alert"  id="alert-obrigatorio-modal" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Campo obrigatório.
+                </div>
+                <div class="alert alert-danger" role="alert"  id="alert-email-invalido-modal" hidden="true">
+                  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  <span class="sr-only"></span> Endereço de e-mail inválido.
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button id="btn-submit-modal" type="submit" class="btn btn-primary btn-modal-salvar"> Quero meu e-book grátis </button>
+              </div>
+            </div>
           </div>
-        </section>
-      </div>
-    </body>
-    </html>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

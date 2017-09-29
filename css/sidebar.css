@@ -1,4 +1,3 @@
- 
 #sidebarFixo{
   position: fixed;
   width: 25%;
@@ -42,4 +41,8 @@
 .button-ebook {
   display: block;
   margin: auto;
+}
+
+.pMensagemPrivacidade {
+  font-size: 13px;
 }
