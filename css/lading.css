@@ -1,8 +1,4 @@
-body{
-	width: 100%;
-	
 
-}
 #row1{
 	background-color: #ededed;
 	}
@@ -28,11 +24,11 @@ body{
 	height: 390px;
 	} 
 
-form{
-	width: 60%;
+/*form{
+	width: 80%;
 	float: left;
 	margin:0 auto;
-}
+}*/
 
 
 h3{
@@ -50,7 +46,8 @@ p{
 #panel{
 	width: 60%;
 	background-color: #f2f2f2;
-	height: 20%;
+	height: 390px;
+
 
 }
 #pForm{
@@ -71,19 +68,34 @@ p{
 }
 
 #button{
+
 	background-color: #ff8b00;
 	border: none;
+	width: 100%;
+	
+
 }
 input{
-	
 	border-color: #cccccc;
 }
+.form-control{
+	height: 40px;
 
+}
+label{
+	font-family: Arial;
+}
+
+.panel-body{
+	margin-right: 5%;
+	margin-left: 5%;
+}
 @media only screen and (max-width: 700px) {
 
   #image {
   	padding-left: 5%;	
 	display: block;
+	width: 100%;
     
   }
 
